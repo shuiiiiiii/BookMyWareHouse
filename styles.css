@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Cal Sans";
+}
+
+/* .page{
+    overflow-x: hidden;
+    width: 100vw;
+} */
+
+.landing{
+    background-image: url("/images/SL-072622-51930-20.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar{
+    width: 90%;
+    height: 8%;
+    padding: 1%;
+    backdrop-filter: blur(2px);
+    border: 2px solid #8e8e8e;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0 0 10px #c2c2c2;
+}
+
+.navBtns{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.navBtns span{
+    height: 100%;
+    padding: 0 2%;
+    cursor: pointer;
+    border-top: 2px solid transparent;
+    border-bottom: 2.5px solid transparent;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.navBtns span:hover{
+    border-bottom-color: black;
+}
+
+.landingContent{
+    width: 80%;
+    height: 85%;
+    display: flex;
+}
+
+.leftSection, .rightSection{
+    width: 50%;
+    height: 100%;
+}
+
+.leftSection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.leftSection div{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftSection div span{
+    cursor: default;
+}
+
+.leftSection div span:nth-child(2){
+    font-size: 150px;
+    line-height: 120%;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    padding: 0 2%;
+    margin: 2% 0%;
+    border-radius: 5px;
+}
+
+.leftSection div span:nth-child(1), .leftSection div span:nth-child(3){
+    font-size: 50px;    
+}
+
+.leftSection button{
+    width: 15%;
+    height: 5%;
+    border: 2px solid black ;
+    backdrop-filter: blur(2px);
+    background-color: transparent;
+    margin-top: 3%;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.leftSection button:hover{
+    background-color: black;
+    color: white;
+}
+
+.rightSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSection img{
+    width: 1000px;
+    height: 750px;
+}
+
+.scrollDown{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollDown img{
+    width: 60px;
+    height: 60px;
+    transform: rotate(180deg);
+}
+
+.warehouses{
+    width: 100%;
+    height: 100vh;
+    background: #fff ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    padding: 2% 0;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgb(17, 17, 17) 100%);
+}
+.warehouses div{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.extraWHinfo{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5%;
+}
+
+.extraWHinfo span{
+    font-size: 45px !important;
+    /* filter: drop-shadow(0 0 55px white); */
+}
+
+.extraWHinfo button{
+    width: 15%;
+    height: 60%;
+    border: 2px solid white ;
+    backdrop-filter: blur(2px);
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+    color: white;
+}
+
+.extraWHinfo button:hover{
+    color: black;    
+    background-color: white;
+}
