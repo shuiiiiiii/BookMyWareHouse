@@ -155,7 +155,8 @@
     padding: 2% 0;
     background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgb(17, 17, 17) 100%);
 }
-.warehouses div{
+
+.warehousesDiv{
     width: 90%;
     height: 100%;
     display: flex;
@@ -192,4 +193,241 @@
 .extraWHinfo button:hover{
     color: black;    
     background-color: white;
+}
+
+.warehouse{
+    width: 100%;
+    height: 80%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wh{
+    height: 100%;
+    padding: 2%;
+    background-color: #ffffff0d;
+    border: 1px solid white;
+}
+
+.wh:nth-child(1){
+    width: 74%;
+    background-image: url("https://cms.ar-racking.com/uploads/2020/06/2023-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+.wh:nth-child(2){
+    width: 25%;
+}
+
+.whDetails{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.whDetails div{
+    width: 100%;
+}
+
+.whDetails div:nth-child(1){
+    font-size: 45px;
+    margin-bottom: 5%;
+}
+
+.whDetails div:nth-child(2){
+    font-size: 20px;
+}
+
+.metrics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.m1{
+    margin-top: 15% !important;
+}
+
+.m4{
+    margin-bottom: 15% !important;
+}
+
+.price{
+    margin-top: 32%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    font-size: 18px;
+}
+
+.price span:nth-child(1){
+    width: 65%;
+}
+
+.price span:nth-child(2){
+    height: 60%;
+    width: 35%;
+}
+
+.price button{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.price button:hover{
+    background-color: white;
+    color: black;
+}
+
+.location{
+    font-size: 20px;
+}
+
+.features{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(images/9517d01d-7535-4e2b-aef0-067fb0269650.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.f{
+    width: 90%;
+    height: 100%;
+    margin: 2% 0;
+}
+
+.section span:nth-child(1){
+    font-size: 18px;
+    margin-bottom: 1%;
+    text-transform: uppercase;
+}
+
+.section span:nth-child(2){
+    font-size: 45px;
+    margin-bottom: 1%;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+.feature{
+    width: 100%;
+    height: 85%;
+}
+
+.f1, .f2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f1 section, .f2 section{
+    width: 30%;
+    height: 80%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    backdrop-filter: blur(2px);
+}
+
+
+.feature2{
+    color: white !important;
+    background-color: #000 !important;
+    background-image: none;
+}
+
+.wimage{
+    width: 50%;
+    height: 100%;
+    padding: 2% 0;
+}
+
+.wimage img{
+    width: 100%;
+    height: 100%;
+}
+
+.wthings{
+    width: 50%;
+    height: 100%;
+    padding: 2% 0;
+}
+
+.features2{
+    display: flex;
+}
+
+.things{
+    width: 100%;
+    height: 90%;
+    padding: 0 5%;
+}
+
+.thing{
+    height: 20%;
+    width: 100%;
+    padding: 0 2%;
+    border: 1px solid white;
+    margin-bottom: 4%;
+    display: flex;
+    align-items: center;
+}
+
+.wthingsbtn{
+    padding: 0 5%;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: end;
+}
+
+.wthingsbtn button{
+    padding: 1% 2%;
+    height: 70%;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid white;
+    font-size: 14px;
+}
+
+.wthingsbtn button:hover{
+    color: black;
+    background: white;
+}
+
+.feat h1{
+    font-size: 25px;
+}
+
+.feat span{
+    font-style: 20px;
 }
