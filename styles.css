@@ -431,3 +431,190 @@
 .feat span{
     font-style: 20px;
 }
+
+.coldStorage{
+    color: black !important;
+    background-image: url(/images/wgrid.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cs .wh{
+    height: 100%;
+    width: 30%;
+    padding: 2%;
+    background-color: #ffffff0d;
+    border: 2px solid black;
+    backdrop-filter: blur(2px);
+}
+
+.topImg{
+    width: 100%;
+    height: 40%;
+    margin-top: 0 !important;
+}
+
+.topImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.price2{
+    margin-top: 0% !important;
+    border-color: black !important;
+    border-width: 2px;
+}
+
+.warehouseName{
+    font-size: 30px !important;
+}
+
+.m11, .m44{
+    margin: 0;
+}
+
+.m44{
+    margin-bottom: 1%;
+}
+
+
+.wareHouseDesc{
+    margin-bottom: 2%;
+}
+
+
+#specbtn{
+    background-color: transparent;
+    color: black !important;
+    border-color: black;
+    border-width: 2px;
+}
+
+#specbtn:hover{
+    background-color: #000;
+    color: white !important;
+}
+
+.specwh{
+    transform: scale(1.05);;
+}
+
+.reviews{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2% 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgb(17, 17, 17) 100%);
+}
+
+.contain{
+    width: 90%;
+    height: 100%;
+}
+
+.loldiv{
+    width: 100%;
+    height: 50%;
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+}
+
+.loldiv:nth-child(1){
+    border-bottom: 2px dashed white ;
+}
+
+.cDiv{
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    justify-content: center;
+    display: flex;
+}
+
+.cDiv:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 !important;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.cDiv h1{
+    margin: 2% 0;
+    font-size: 40px;
+}
+
+.cDiv span{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.cDiv div{
+    width: 100%;
+    display: flex;
+}
+
+.cDiv div img{
+    border: 1px solid white;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
+.cDiv:nth-child(2) img{
+    height: 100%;
+}
+
+.kekw{
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.review{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-top: 0.5%;
+    align-items: center;
+}
+
+.review div{
+    width: 25%;
+    height: 100%;
+    padding: 1%;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2%;
+}
+
+.review div p{
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+
+.lolz{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lolz span{
+    text-transform: uppercase;
+}
+
+.review div section{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
